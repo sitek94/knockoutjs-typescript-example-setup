@@ -2,9 +2,9 @@
   "name": "knockoutjs-typescript-basics",
   "version": "1.0.0",
   "description": "An example of using TypeScript and Knockout JS.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve --open",
+    "build": "webpack --mode production"
   },
   "author": "Maciek Sitkowski",
   "license": "ISC",
