@@ -22,6 +22,10 @@ module.exports = {
         test: /\.html$/, // All Knockout.js component HTML templates
         use: 'html-loader', // Adds the component templates to the bundle
       },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
   plugins: [
